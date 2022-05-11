@@ -14,7 +14,7 @@ The goal is to solve a grid of the game Starbattle using an SAT-solver
 
 ### Requirements
 
-To run the project, you need to install `python >= 3.8`  with the following requirements:
+To run the project, you need to install `python >= 3.9`  with the following requirements:
 
 - `Pillow` :  Used for image generation
 - `jupyterlab` : Used for the notebook
