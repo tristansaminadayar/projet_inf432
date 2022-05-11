@@ -18,17 +18,19 @@ To run the project, you need to install `python >= 3.8`  with the following requ
 
 - `Pillow` :  Used for image generation
 - `jupyterlab` : Used for the notebook
+- `python-sat` : Used as a SAT-solver
 
 You can install it using the following command using `pip`:
 
 ```sh
-pip install Pillow, jupyterlab
+pip install Pillow, jupyterlab, python-sat
 ```
 
 Or you can install it using the following command using `conda`:
 
 ```sh
 conda install -c conda-forge Pillow, jupyterlab
+pip install python-sat
 ```
 
 Or use a full environment like [anaconda](https://www.anaconda.com/download/)
