@@ -18,7 +18,7 @@ To run the project, you need to install `python >= 3.8`  with the following requ
 
 - `Pillow` :  Used for image generation
 - `jupyterlab` : Used for the notebook
-- `python-sat` : Used as a SAT-solver
+- `python-sat` : Used as SAT-solver
 
 You can install it using the following command using `pip`:
 
@@ -33,4 +33,13 @@ conda install -c conda-forge Pillow, jupyterlab
 pip install python-sat
 ```
 
-Or use a full environment like [anaconda](https://www.anaconda.com/download/)
+Or use a full environment like [anaconda](https://www.anaconda.com/download/) and install `python-sat`.
+
+### Running the project
+
+```sh
+jupyter lab
+```
+
+An run the notebook called `Starbattle.ipynb`. You can also run the notebook directly by opening the file in your editor
+if it is compatible.
